@@ -2,6 +2,7 @@ import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi";
+import Link from "next/link";
 
 
 
@@ -12,17 +13,17 @@ const Home = () => {
         <div className="flex flex-col md:flex-row items-center justify-between md:pt-8 md:pb-24">
           {/* text div */}
           <div className="text-center md:text-left order-2 md:order-none">
-            <h1 className="h1 text-white/80 mb-6" >
+            <h1 className="text-6xl mb-6" >
               Yram {""}
               <span
-                className=" z-20  md:before:content-brush md:text-primary
-                before:absolute before:left-[160px] before:top-[185px] before:z-[-1] text-4xl "
+                className=" sm:relative sm:text-primary sm:font-semibold z-20 sm:before:content-brush
+              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1] text-5xl "
               >
                 Afakorzi
               </span>
             </h1>
 
-            <p className=" max-w-[500px] mb-9 text-white/80 h3">
+            <p className=" max-w-[500px] mb-9 text-white/60 h3">
             Software engineer who is a conscientious and diligent individual with team working and 
             problem-solving skills. I am ready to apply my knowledge to actual practice as well as 
             ready for high exposure to multinational and diversified environments.
@@ -31,7 +32,7 @@ const Home = () => {
             {/* button & Social media icons */}
             <div className="flex flex-col md:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
-                <span>Download CV</span>
+                <Link href="/resume">Download CV</Link>
                 <FiDownload className="text-xl "/>
               </Button>
               {/* social icons */}

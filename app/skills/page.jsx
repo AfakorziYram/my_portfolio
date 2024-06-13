@@ -5,22 +5,52 @@ import { motion } from "framer-motion";
 const skills = [
   {
     num:"01",
-    title:"React",
+    title:"React Js",
     logo:"YRAM"
   },
   {
     num:"02",
-    title:"React",
+    title:"Next Js",
     logo:"YRAM"
   },
   {
     num:"03",
-    title:"React",
+    title:"Javascript",
     logo:"YRAM"
   },
   {
     num:"04",
-    title:"React",
+    title:"CSS",
+    logo:"YRAM"
+  },
+  {
+    num:"05",
+    title:"Node Js",
+    logo:"YRAM"
+  },
+  {
+    num:"06",
+    title:"Html",
+    logo:"YRAM"
+  },
+  {
+    num:"07",
+    title:"Mongodb",
+    logo:"YRAM"
+  },
+  {
+    num:"08",
+    title:"Typescript",
+    logo:"YRAM"
+  },
+  {
+    num:"09",
+    title:"Express Js",
+    logo:"YRAM"
+  },
+  {
+    num:"10",
+    title:"Github",
     logo:"YRAM"
   },
 ]
