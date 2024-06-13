@@ -75,12 +75,12 @@ const Projects = () => {
               {/* outline for number */}
               <div className="text-8xl leading-none font-extrabold text-transparent text-outline">{project.num}</div>
               {/* project category */}
-              <h2 className="text-[42px] font-bold leading-none text-white/80 group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
+              <h2 className="text-[42px] font-bold leading-none text-[#FF45A4] group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
               <p className="text-white/60">{project.description}</p>
               {/* stack */}
               <ul className="flex gap-4">
                 {project.stack.map((item, index)=>{
-                  return<li key={index} className="text-xl">
+                  return<li key={index} className="text-xl ">
                     {item.name}
                     {/* to remove last comma */}
                     {index!==project.stack.length -1 && ","} 
